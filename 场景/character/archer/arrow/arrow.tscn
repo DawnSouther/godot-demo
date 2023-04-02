@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://dss8kd4bnld1f"]
+
+[ext_resource type="Script" path="res://场景/character/archer/arrow/arrow.gd" id="1_2j8ej"]
+[ext_resource type="Texture2D" uid="uid://tlqndfqwek5v" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/projectiles_and_effects/arrow/arrow_.png" id="1_3mnj2"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hwphu"]
+size = Vector2(10, 3.5)
+
+[node name="arrow" type="Area2D"]
+position = Vector2(0, -1)
+script = ExtResource("1_2j8ej")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, 1)
+texture = ExtResource("1_3mnj2")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(11, 1)
+shape = SubResource("RectangleShape2D_hwphu")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 5.0
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

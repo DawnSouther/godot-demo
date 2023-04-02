@@ -1,0 +1,41 @@
+[gd_scene load_steps=3 format=3 uid="uid://ccw0fdwneuaqi"]
+
+[ext_resource type="Texture2D" uid="uid://3oxwa72cbdbe" path="res://资源/Final/Background_0.png" id="1_meuqj"]
+[ext_resource type="Script" path="res://场景/map/title.gd" id="2_c8bfl"]
+
+[node name="title" type="TextureRect"]
+offset_right = 1151.0
+offset_bottom = 648.0
+texture = ExtResource("1_meuqj")
+script = ExtResource("2_c8bfl")
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+layout_mode = 0
+offset_left = 398.0
+offset_top = 189.0
+offset_right = 758.0
+offset_bottom = 439.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer"]
+custom_minimum_size = Vector2(360, 0)
+layout_mode = 2
+alignment = 1
+
+[node name="Label" type="Label" parent="CenterContainer/VBoxContainer"]
+layout_mode = 2
+text = "123"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button" type="Button" parent="CenterContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 60)
+layout_mode = 2
+text = "开始游戏"
+
+[node name="Button2" type="Button" parent="CenterContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+text = "退出游戏"
+
+[connection signal="pressed" from="CenterContainer/VBoxContainer/Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="CenterContainer/VBoxContainer/Button2" to="." method="_on_button_2_pressed"]

@@ -1,0 +1,467 @@
+[gd_scene load_steps=71 format=3 uid="uid://cuqo3op1momjw"]
+
+[ext_resource type="Script" path="res://场景/character/saber/saber.gd" id="1_ynwau"]
+[ext_resource type="Texture2D" uid="uid://cv7bbip2j441p" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/05_1_atk/1_atk_1.png" id="2_abs1r"]
+[ext_resource type="Texture2D" uid="uid://bb5h0me5o70ab" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/05_1_atk/1_atk_2.png" id="3_7eauw"]
+[ext_resource type="Texture2D" uid="uid://ci73bdx5iv4nn" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/05_1_atk/1_atk_3.png" id="4_77yuc"]
+[ext_resource type="Texture2D" uid="uid://bus4lwgp153kw" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/05_1_atk/1_atk_4.png" id="5_hu3hi"]
+[ext_resource type="Texture2D" uid="uid://bbttq3dmndnm1" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/05_1_atk/1_atk_5.png" id="6_bp32w"]
+[ext_resource type="Texture2D" uid="uid://bajfa54hqltkg" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/05_1_atk/1_atk_6.png" id="7_uer41"]
+[ext_resource type="Texture2D" uid="uid://bn2nb04x27f7x" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/05_1_atk/1_atk_7.png" id="8_707na"]
+[ext_resource type="Texture2D" uid="uid://cmv40rdqysj8j" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/05_1_atk/1_atk_8.png" id="9_8akcj"]
+[ext_resource type="Texture2D" uid="uid://bd14y6j0d5jgr" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/05_1_atk/1_atk_9.png" id="10_g8tx3"]
+[ext_resource type="Texture2D" uid="uid://cw0da2j37x8ke" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/05_1_atk/1_atk_10.png" id="11_ph14d"]
+[ext_resource type="Texture2D" uid="uid://b7pun4hk1alom" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/05_1_atk/1_atk_11.png" id="12_3766q"]
+[ext_resource type="Texture2D" uid="uid://dpf0r2vox3ku6" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/06_2_atk/2_atk_1.png" id="13_wxbut"]
+[ext_resource type="Texture2D" uid="uid://bx4npvhjnvbl8" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/06_2_atk/2_atk_2.png" id="14_g2yhk"]
+[ext_resource type="Texture2D" uid="uid://cp4uwjqtsmkq7" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/06_2_atk/2_atk_3.png" id="15_nuuab"]
+[ext_resource type="Texture2D" uid="uid://df4l3ia2qkpxo" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/06_2_atk/2_atk_4.png" id="16_v2bw3"]
+[ext_resource type="Texture2D" uid="uid://dnlfk0o4g6mjj" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/06_2_atk/2_atk_5.png" id="17_gqia2"]
+[ext_resource type="Texture2D" uid="uid://7eex771evv4y" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/06_2_atk/2_atk_6.png" id="18_2tg4q"]
+[ext_resource type="Texture2D" uid="uid://cjlre0q04a54x" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/06_2_atk/2_atk_7.png" id="19_gmipr"]
+[ext_resource type="Texture2D" uid="uid://cjjj8etcsqio3" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/06_2_atk/2_atk_8.png" id="20_g7enx"]
+[ext_resource type="Texture2D" uid="uid://d3us88wlllt0b" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/06_2_atk/2_atk_9.png" id="21_avkfy"]
+[ext_resource type="Texture2D" uid="uid://tibut4b22er5" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/06_2_atk/2_atk_10.png" id="22_vckgg"]
+[ext_resource type="Texture2D" uid="uid://c5amrqss82wog" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/06_2_atk/2_atk_11.png" id="23_qwcjb"]
+[ext_resource type="Texture2D" uid="uid://dk3s3pctrdine" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/06_2_atk/2_atk_12.png" id="24_5bxc0"]
+[ext_resource type="Texture2D" uid="uid://garriuuusir0" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/06_2_atk/2_atk_13.png" id="25_ckg0h"]
+[ext_resource type="Texture2D" uid="uid://ba4mlmnxcv1p2" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/06_2_atk/2_atk_14.png" id="26_fqhha"]
+[ext_resource type="Texture2D" uid="uid://dv1b8j5utcb2r" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/06_2_atk/2_atk_15.png" id="27_hhwqi"]
+[ext_resource type="Texture2D" uid="uid://ca28trvjw1iwr" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/06_2_atk/2_atk_16.png" id="28_fkvqv"]
+[ext_resource type="Texture2D" uid="uid://bjcgb61opg7yp" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/06_2_atk/2_atk_17.png" id="29_48mdp"]
+[ext_resource type="Texture2D" uid="uid://dvfmgiq75wim6" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/06_2_atk/2_atk_18.png" id="30_ruljs"]
+[ext_resource type="Texture2D" uid="uid://b5cvnugikpejh" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/06_2_atk/2_atk_19.png" id="31_uiq5a"]
+[ext_resource type="Texture2D" uid="uid://cot20kns4hgoj" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/11_death/death_1.png" id="32_tcwk2"]
+[ext_resource type="Texture2D" uid="uid://digjcotu42c1k" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/11_death/death_2.png" id="33_587ln"]
+[ext_resource type="Texture2D" uid="uid://dhvk828xaynli" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/11_death/death_3.png" id="34_t4o5n"]
+[ext_resource type="Texture2D" uid="uid://bqc0tarbfi78b" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/11_death/death_4.png" id="35_ev1tv"]
+[ext_resource type="Texture2D" uid="uid://bnea1f2qrjqf2" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/11_death/death_5.png" id="36_tue16"]
+[ext_resource type="Texture2D" uid="uid://dolt2skyuiw8h" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/11_death/death_6.png" id="37_5n3j8"]
+[ext_resource type="Texture2D" uid="uid://c2m5m08kshyed" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/11_death/death_7.png" id="38_idhoq"]
+[ext_resource type="Texture2D" uid="uid://bel63tkfnalwa" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/11_death/death_8.png" id="39_cukwg"]
+[ext_resource type="Texture2D" uid="uid://v5b20gsxikf" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/11_death/death_9.png" id="40_rs3gb"]
+[ext_resource type="Texture2D" uid="uid://dk3vqlqvcrer0" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/11_death/death_10.png" id="41_03ra2"]
+[ext_resource type="Texture2D" uid="uid://d1o1kpfofhwdh" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/11_death/death_11.png" id="42_1lai7"]
+[ext_resource type="Texture2D" uid="uid://dgl1a3r5jkbda" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/11_death/death_12.png" id="43_06nr7"]
+[ext_resource type="Texture2D" uid="uid://cy5w6odrxfg5i" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/11_death/death_13.png" id="44_6nddd"]
+[ext_resource type="Texture2D" uid="uid://0au381jdeuag" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/02_run/run_1.png" id="45_i3biu"]
+[ext_resource type="Texture2D" uid="uid://bgoe1xaukbtr0" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/02_run/run_2.png" id="46_06anm"]
+[ext_resource type="Texture2D" uid="uid://cdmj0o4cutwmg" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/02_run/run_3.png" id="47_s1tky"]
+[ext_resource type="Texture2D" uid="uid://c0d4ihusfx5ny" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/02_run/run_4.png" id="48_p62fd"]
+[ext_resource type="Texture2D" uid="uid://b1v2tpycwk4w5" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/02_run/run_5.png" id="49_yihod"]
+[ext_resource type="Texture2D" uid="uid://bq11hxid77w1p" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/02_run/run_6.png" id="50_3wxi3"]
+[ext_resource type="Texture2D" uid="uid://dkdcpuo8c5y4q" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/02_run/run_7.png" id="51_xxyw4"]
+[ext_resource type="Texture2D" uid="uid://dpjl4c124wsl" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/02_run/run_8.png" id="52_5nwpj"]
+[ext_resource type="Texture2D" uid="uid://6p28tlckfhxs" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/10_take_hit/take_hit_1.png" id="53_dwcc6"]
+[ext_resource type="Texture2D" uid="uid://c0an1qydr4sad" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/10_take_hit/take_hit_2.png" id="54_vt2mb"]
+[ext_resource type="Texture2D" uid="uid://c460rl2xi0axr" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/10_take_hit/take_hit_3.png" id="55_css4o"]
+[ext_resource type="Texture2D" uid="uid://dk2neuu2h8xcc" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/10_take_hit/take_hit_4.png" id="56_uwvty"]
+[ext_resource type="Texture2D" uid="uid://hxixkuckrhtd" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/10_take_hit/take_hit_5.png" id="57_fr6ir"]
+[ext_resource type="Texture2D" uid="uid://cvi0hdh2okuph" path="res://资源/Elementals_fire_knight_FREE_v1.1/png/fire_knight/10_take_hit/take_hit_6.png" id="58_krqqj"]
+[ext_resource type="Script" path="res://场景/character/saber/fsm/FSM.gd" id="59_uj3q2"]
+[ext_resource type="Script" path="res://场景/character/saber/fsm/Run.gd" id="60_bd4d1"]
+[ext_resource type="Script" path="res://场景/character/saber/fsm/Attack.gd" id="61_8ggds"]
+[ext_resource type="Script" path="res://场景/character/saber/fsm/TakeHit.gd" id="62_xnd8c"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_0tisg"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_abs1r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_7eauw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_77yuc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_hu3hi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_bp32w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_uer41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_707na")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_8akcj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_g8tx3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_ph14d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_3766q")
+}],
+"loop": false,
+"name": &"attack1",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("13_wxbut")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_g2yhk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_nuuab")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_v2bw3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_gqia2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_2tg4q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_gmipr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_g7enx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_avkfy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_vckgg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_qwcjb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_5bxc0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_ckg0h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_fqhha")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_hhwqi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_fkvqv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_48mdp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_ruljs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_uiq5a")
+}],
+"loop": false,
+"name": &"attack2",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("32_tcwk2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_587ln")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_t4o5n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_ev1tv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_tue16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_5n3j8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_idhoq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_cukwg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_rs3gb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_03ra2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_1lai7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_06nr7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_6nddd")
+}],
+"loop": false,
+"name": &"death",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("45_i3biu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_06anm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_s1tky")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_p62fd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_yihod")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_3wxi3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_xxyw4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_5nwpj")
+}],
+"loop": true,
+"name": &"run",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("53_dwcc6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_vt2mb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_css4o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_uwvty")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_fr6ir")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_krqqj")
+}],
+"loop": false,
+"name": &"take_hit",
+"speed": 8.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bp35b"]
+size = Vector2(16, 40)
+
+[sub_resource type="Animation" id="Animation_v7bs4"]
+resource_name = "attack1"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"attack1", 1.0, false],
+"method": &"play"
+}]
+}
+tracks/1/type = "method"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("FSM/Attack")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.625),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"attack1_check"
+}]
+}
+
+[sub_resource type="Animation" id="Animation_0uccq"]
+resource_name = "attack2"
+length = 2.0
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"attack2", 1.0, false],
+"method": &"play"
+}]
+}
+tracks/1/type = "method"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("FSM/Attack")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.525, 1.375, 1.625, 1.75, 1.875),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"values": [{
+"args": [],
+"method": &"attack1_check"
+}, {
+"args": [],
+"method": &"attack2l_check"
+}, {
+"args": [],
+"method": &"attack2r_check"
+}, {
+"args": [],
+"method": &"attack2l_check"
+}, {
+"args": [],
+"method": &"attack2r_check"
+}]
+}
+
+[sub_resource type="Animation" id="Animation_s123e"]
+resource_name = "death"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"death", 1.0, false],
+"method": &"play"
+}]
+}
+
+[sub_resource type="Animation" id="Animation_gmyam"]
+resource_name = "run"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"run", 1.0, false],
+"method": &"play"
+}]
+}
+
+[sub_resource type="Animation" id="Animation_lg31x"]
+resource_name = "take_hit"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"take_hit", 1.0, false],
+"method": &"play"
+}]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_bymfl"]
+_data = {
+"attack1": SubResource("Animation_v7bs4"),
+"attack2": SubResource("Animation_0uccq"),
+"death": SubResource("Animation_s123e"),
+"run": SubResource("Animation_gmyam"),
+"take_hit": SubResource("Animation_lg31x")
+}
+
+[node name="saber" type="CharacterBody2D"]
+collision_layer = 2
+script = ExtResource("1_ynwau")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_0tisg")
+animation = &"take_hit"
+autoplay = "run"
+offset = Vector2(0, -40)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_bp35b")
+
+[node name="RightDownCast" type="RayCast2D" parent="."]
+position = Vector2(20, 1)
+
+[node name="LeftDownCast" type="RayCast2D" parent="."]
+position = Vector2(-20, 0)
+
+[node name="R" type="Node2D" parent="."]
+position = Vector2(34, -11)
+
+[node name="L" type="Node2D" parent="."]
+position = Vector2(-33, -11)
+
+[node name="FSM" type="Node" parent="."]
+script = ExtResource("59_uj3q2")
+
+[node name="Run" type="Node" parent="FSM"]
+script = ExtResource("60_bd4d1")
+
+[node name="Attack" type="Node" parent="FSM"]
+script = ExtResource("61_8ggds")
+
+[node name="Timer" type="Timer" parent="FSM/Attack"]
+wait_time = 0.25
+one_shot = true
+
+[node name="TakeHit" type="Node" parent="FSM"]
+script = ExtResource("62_xnd8c")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_bymfl")
+}
+
+[node name="AttackCheck" type="Node2D" parent="."]
+
+[node name="A1" type="Area2D" parent="AttackCheck"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="AttackCheck/A1"]
+polygon = PackedVector2Array(-28, -43, -23, -56, 10, -61, 40, -54, 60, -35, 69, -8, 63, 19, 53, 22, 20, 17, 30, 5, 40, -11, 36, -28, 19, -39, 9, -45, -15, -39)
+
+[node name="A2l" type="Area2D" parent="AttackCheck"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="AttackCheck/A2l"]
+polygon = PackedVector2Array(-3, -13, -5, -19, -26, -21, -49, -14, -56, -2, -46, 16, -31, 24, -14, 17, 1, 10)
+
+[node name="A2r" type="Area2D" parent="AttackCheck"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="AttackCheck/A2r"]
+polygon = PackedVector2Array(60, 13, 73, 6, 71, -7, 53, -21, 22, -29, -13, -32, -33, -27, -11, -13, -2, -20, 17, -19, 40, -11, 53, -3)
+
+[connection signal="animation_finished" from="AnimatedSprite2D" to="FSM/Attack" method="_on_animated_sprite_2d_animation_finished"]
+[connection signal="animation_finished" from="AnimatedSprite2D" to="FSM/TakeHit" method="_on_animated_sprite_2d_animation_finished"]

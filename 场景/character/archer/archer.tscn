@@ -1,0 +1,313 @@
+[gd_scene load_steps=54 format=3]
+
+[ext_resource type="Script" path="res://场景/character/archer/archer.gd" id="1_l1xje"]
+[ext_resource type="Texture2D" uid="uid://cteq84ui1ycil" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/2_atk/2_atk_1.png" id="2_81j5h"]
+[ext_resource type="Texture2D" uid="uid://icc6u0jerf86" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/2_atk/2_atk_2.png" id="3_1uhko"]
+[ext_resource type="Texture2D" uid="uid://cs7mli404v67f" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/2_atk/2_atk_3.png" id="4_v7ijw"]
+[ext_resource type="Texture2D" uid="uid://cankfpg56jyfj" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/2_atk/2_atk_4.png" id="5_3ul4e"]
+[ext_resource type="Texture2D" uid="uid://boq1wvw0vib0k" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/2_atk/2_atk_5.png" id="6_gc2cv"]
+[ext_resource type="Texture2D" uid="uid://b7unidejov8vh" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/2_atk/2_atk_6.png" id="7_0hjbp"]
+[ext_resource type="Texture2D" uid="uid://cfcp256hplj6h" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/2_atk/2_atk_7.png" id="8_ximyo"]
+[ext_resource type="Texture2D" uid="uid://g351bgrv2dxr" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/2_atk/2_atk_8.png" id="9_uyjpc"]
+[ext_resource type="Texture2D" uid="uid://dwax17xjnqiib" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/2_atk/2_atk_9.png" id="10_p7trj"]
+[ext_resource type="Texture2D" uid="uid://cxlgamtxxeki4" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/2_atk/2_atk_10.png" id="11_dr4l3"]
+[ext_resource type="Texture2D" uid="uid://beg6ivef0ho5n" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/2_atk/2_atk_11.png" id="12_cgfkj"]
+[ext_resource type="Texture2D" uid="uid://c04h6vftr2p1k" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/2_atk/2_atk_12.png" id="13_pge70"]
+[ext_resource type="Texture2D" uid="uid://bmq64o1hewcdm" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/2_atk/2_atk_13.png" id="14_3xpb1"]
+[ext_resource type="Texture2D" uid="uid://ebum6p2x3r8a" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/2_atk/2_atk_14.png" id="15_idc24"]
+[ext_resource type="Texture2D" uid="uid://bnl13n0fdmraq" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/2_atk/2_atk_15.png" id="16_kr21d"]
+[ext_resource type="Texture2D" uid="uid://xoeqeaxk4jfl" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/death/death_1.png" id="17_b23cw"]
+[ext_resource type="Texture2D" uid="uid://crhk4a01tkyw6" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/death/death_2.png" id="18_nups1"]
+[ext_resource type="Texture2D" uid="uid://bncdgc0axjtf6" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/death/death_3.png" id="19_sr7od"]
+[ext_resource type="Texture2D" uid="uid://4myw6e5jc5li" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/death/death_4.png" id="20_apy4t"]
+[ext_resource type="Texture2D" uid="uid://5vsway3qmcet" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/death/death_5.png" id="21_0ok1e"]
+[ext_resource type="Texture2D" uid="uid://c7nqnoks7k7gj" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/death/death_6.png" id="22_q2o6l"]
+[ext_resource type="Texture2D" uid="uid://c2e1y4d54ivul" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/death/death_7.png" id="23_bt3m8"]
+[ext_resource type="Texture2D" uid="uid://b1l38h65kedr5" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/death/death_8.png" id="24_l6s0h"]
+[ext_resource type="Texture2D" uid="uid://dt7ntvpgiin4w" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/death/death_9.png" id="25_al77n"]
+[ext_resource type="Texture2D" uid="uid://iwyp7ek4qrj2" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/death/death_10.png" id="26_fruyr"]
+[ext_resource type="Texture2D" uid="uid://kfxtfitm15cp" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/death/death_11.png" id="27_iqt5t"]
+[ext_resource type="Texture2D" uid="uid://bw5hfgkpb17sk" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/death/death_12.png" id="28_0fuii"]
+[ext_resource type="Texture2D" uid="uid://cy0b0bc7wp4mu" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/run/run_1.png" id="29_ttfrf"]
+[ext_resource type="Texture2D" uid="uid://be22hek16yq2a" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/run/run_2.png" id="30_cu1lr"]
+[ext_resource type="Texture2D" uid="uid://b60r6jwi21ymx" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/run/run_3.png" id="31_qsaoy"]
+[ext_resource type="Texture2D" uid="uid://h3qqexxu2o42" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/run/run_4.png" id="32_08by8"]
+[ext_resource type="Texture2D" uid="uid://k3j84pt1g23w" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/run/run_5.png" id="33_axyb0"]
+[ext_resource type="Texture2D" uid="uid://bftslt1dnn8xh" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/run/run_6.png" id="34_47ntx"]
+[ext_resource type="Texture2D" uid="uid://bn87gr2x0gnjd" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/run/run_7.png" id="35_n54u1"]
+[ext_resource type="Texture2D" uid="uid://bn21161r8qs2q" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/run/run_8.png" id="36_7ydkt"]
+[ext_resource type="Texture2D" uid="uid://duw67xbdfykhq" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/run/run_9.png" id="37_kuyd1"]
+[ext_resource type="Texture2D" uid="uid://dgbs5pol1tj8p" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/run/run_10.png" id="38_7wcty"]
+[ext_resource type="Texture2D" uid="uid://dkcdqv1bb4ejy" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/take_hit/take_hit_1.png" id="39_h5ouh"]
+[ext_resource type="Texture2D" uid="uid://brhm82yd2i7y1" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/take_hit/take_hit_2.png" id="40_c3ufp"]
+[ext_resource type="Texture2D" uid="uid://d2c46x6p5vew1" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/take_hit/take_hit_3.png" id="41_u6856"]
+[ext_resource type="Texture2D" uid="uid://br8nyyxlneh3e" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/take_hit/take_hit_4.png" id="42_2ob45"]
+[ext_resource type="Texture2D" uid="uid://cfst74arabnkt" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/take_hit/take_hit_5.png" id="43_tdlmk"]
+[ext_resource type="Texture2D" uid="uid://fgijnodiiuqc" path="res://资源/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/take_hit/take_hit_6.png" id="44_4l1ma"]
+[ext_resource type="Script" path="res://场景/character/archer/fsm/FSM.gd" id="45_arl3g"]
+[ext_resource type="Script" path="res://场景/character/archer/fsm/Run.gd" id="46_wkc31"]
+[ext_resource type="Script" path="res://场景/character/archer/fsm/Attack.gd" id="47_0mk3f"]
+[ext_resource type="Script" path="res://场景/character/archer/fsm/TakeHit.gd" id="48_ir7ca"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_0tisg"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_81j5h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_1uhko")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_v7ijw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_3ul4e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_gc2cv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_0hjbp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_ximyo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_uyjpc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_p7trj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_dr4l3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_cgfkj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_pge70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_3xpb1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_idc24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_kr21d")
+}],
+"loop": false,
+"name": &"attack",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_b23cw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_nups1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_sr7od")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_apy4t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_0ok1e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_q2o6l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_bt3m8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_l6s0h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_al77n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_fruyr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_iqt5t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_0fuii")
+}],
+"loop": false,
+"name": &"death",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("29_ttfrf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_cu1lr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_qsaoy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_08by8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_axyb0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_47ntx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_n54u1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_7ydkt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_kuyd1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_7wcty")
+}],
+"loop": true,
+"name": &"run",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("39_h5ouh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_c3ufp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_u6856")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_2ob45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_tdlmk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_4l1ma")
+}],
+"loop": false,
+"name": &"take_hit",
+"speed": 8.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bp35b"]
+size = Vector2(16, 40)
+
+[sub_resource type="Animation" id="Animation_bgbv0"]
+resource_name = "attack"
+length = 2.0
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"attack", 1.0, false],
+"method": &"play"
+}]
+}
+tracks/1/type = "method"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("FSM/Attack")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(1.125),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"arrow_check"
+}]
+}
+
+[sub_resource type="Animation" id="Animation_62hf6"]
+resource_name = "run"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"run", 1.0, false],
+"method": &"play"
+}]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_lk5lx"]
+_data = {
+"attack": SubResource("Animation_bgbv0"),
+"run": SubResource("Animation_62hf6")
+}
+
+[node name="archer" type="CharacterBody2D"]
+collision_layer = 2
+script = ExtResource("1_l1xje")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_0tisg")
+animation = &"attack"
+autoplay = "run"
+offset = Vector2(0, -40)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, 1)
+shape = SubResource("RectangleShape2D_bp35b")
+
+[node name="RightDownCast" type="RayCast2D" parent="."]
+position = Vector2(20, 1)
+
+[node name="LeftDownCast" type="RayCast2D" parent="."]
+position = Vector2(-20, 0)
+
+[node name="R" type="Node2D" parent="."]
+position = Vector2(34, -11)
+
+[node name="L" type="Node2D" parent="."]
+position = Vector2(-33, -11)
+
+[node name="RightAttachCheck" type="RayCast2D" parent="."]
+position = Vector2(20, 0)
+rotation = -1.5708
+
+[node name="LeftAttachCheck" type="RayCast2D" parent="."]
+position = Vector2(-20, 0)
+rotation = 1.5708
+
+[node name="FSM" type="Node" parent="."]
+script = ExtResource("45_arl3g")
+
+[node name="Run" type="Node" parent="FSM"]
+script = ExtResource("46_wkc31")
+
+[node name="Attack" type="Node" parent="FSM"]
+script = ExtResource("47_0mk3f")
+
+[node name="TakeHit" type="Node" parent="FSM"]
+script = ExtResource("48_ir7ca")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_lk5lx")
+}
+
+[connection signal="animation_finished" from="AnimatedSprite2D" to="FSM/Attack" method="_on_animated_sprite_2d_animation_finished"]

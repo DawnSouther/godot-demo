@@ -1,0 +1,46 @@
+[gd_scene load_steps=8 format=3 uid="uid://d15rs676vovjd"]
+
+[ext_resource type="PackedScene" path="res://场景/character/archer/archer.tscn" id="1_wby5o"]
+[ext_resource type="PackedScene" uid="uid://cuqo3op1momjw" path="res://场景/character/saber/saber.tscn" id="2_dbwhk"]
+[ext_resource type="PackedScene" uid="uid://c46yhsxicec0u" path="res://场景/character/player/player.tscn" id="3_oiqce"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fmeq2"]
+size = Vector2(270.5, 32.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_q3asv"]
+size = Vector2(72.75, 371.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1y3ci"]
+size = Vector2(228, 30)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_o6435"]
+size = Vector2(274.5, 32)
+
+[node name="test" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(137, 570)
+shape = SubResource("RectangleShape2D_fmeq2")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(-36.375, 403.75)
+shape = SubResource("RectangleShape2D_q3asv")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(459, 569)
+shape = SubResource("RectangleShape2D_1y3ci")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(818, 565)
+shape = SubResource("RectangleShape2D_o6435")
+
+[node name="archer" parent="." instance=ExtResource("1_wby5o")]
+position = Vector2(886, 521)
+
+[node name="saber" parent="." instance=ExtResource("2_dbwhk")]
+position = Vector2(444, 535)
+
+[node name="player" parent="." instance=ExtResource("3_oiqce")]
+position = Vector2(723, 513)

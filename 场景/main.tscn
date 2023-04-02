@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://gypuuhwkbi2i"]
+
+[ext_resource type="Script" path="res://场景/main.gd" id="1_2tywm"]
+[ext_resource type="PackedScene" uid="uid://ccw0fdwneuaqi" path="res://场景/map/title.tscn" id="2_o4oly"]
+
+[node name="main" type="Node"]
+script = ExtResource("1_2tywm")
+
+[node name="title" parent="." instance=ExtResource("2_o4oly")]
+
+[connection signal="start" from="title" to="." method="_on_title_start"]
