@@ -1,7 +1,8 @@
 # 等待戈多
 
 ## 简介
-此项目根据B站UP [戈多翰](https://space.bilibili.com/336116499) 的视频 [Godot4.0零基础入门游戏开发制作教程](https://www.bilibili.com/video/BV1684y147h4) 做出的最终Demo。我做了部分优化与修改，在此留作存档，仅供参考学习之用
+此项目根据B站UP [戈多翰](https://space.bilibili.com/336116499) 的视频 [Godot4.0零基础入门游戏开发制作教程](https://www.bilibili.com/video/BV1684y147h4) 做出的最终Demo。我做了部分优化与修改，在此留作存档，仅供参考学习之用。
 
+## 许可协议
 此项目采用MIT许可证，代码部分可随意使用。
 美术与音效资源为网络资源，不清楚其授权协议，仅供学习交流之用，本人不承担其侵权责任。
